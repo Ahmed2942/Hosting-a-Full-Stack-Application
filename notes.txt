@@ -1,0 +1,9 @@
+IAM
+eb init
+eb config
+zip
+eb deploy
+rds
+.npmrc => unsafe-perm=true => update build script to copy .npmrc inside dist
+
+
