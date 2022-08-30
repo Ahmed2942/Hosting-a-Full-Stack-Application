@@ -8,6 +8,9 @@ import { IndexRouter } from "./controllers/v0/index.router";
 import bodyParser from "body-parser";
 import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
 
+console.log(process.env.PORT);
+console.log(process.env.POSTGRES_PORT);
+
 (async () => {
   dotenv.config();
 
@@ -52,3 +55,5 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
     console.log(`press CTRL+C to stop server`);
   });
 })();
+
+console.log(process.env.PORT)
