@@ -55,5 +55,3 @@ console.log(process.env.POSTGRES_PORT);
     console.log(`press CTRL+C to stop server`);
   });
 })();
-
-console.log(process.env.PORT)
