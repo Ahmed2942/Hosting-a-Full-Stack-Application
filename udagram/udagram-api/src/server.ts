@@ -45,8 +45,7 @@ console.log(process.env.POSTGRES_PORT);
 
   // Root URI call
   app.get("/", async (req, res) => {
-    res.sendFile(process.env.URL);
-    // res.send("/api/v0/");
+    res.send("/api/v0/");
   });
 
   // Start the Server
