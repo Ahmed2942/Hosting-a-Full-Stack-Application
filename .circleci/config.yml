@@ -49,7 +49,7 @@ jobs:
           command: |
             echo "TODO: Build the backend API"
             npm run api:build
-  # deploy step will run only after manual approvalll
+  # deploy step will run only after manual approval
   deploy:
     docker:
       - image: "cimg/base:stable"
@@ -71,10 +71,10 @@ workflows:
   udagram:
     jobs:
       - build:
-          filters:
-            branches:
-              only:
-                - master
+        filters:
+          branches:
+            only:
+              - master
       - deploy:
           requires:
             - build
