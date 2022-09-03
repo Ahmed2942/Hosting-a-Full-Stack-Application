@@ -37,7 +37,6 @@ UserInterfaceState.xcuserstate
 node_modules
 venv/
 .env
-cci_set_env.sh
 # Elastic Beanstalk Files
 # .elasticbeanstalk/*
 # !.elasticbeanstalk/*.cfg.yml
